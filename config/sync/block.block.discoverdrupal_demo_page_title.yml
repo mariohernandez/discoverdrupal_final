@@ -1,0 +1,20 @@
+uuid: 09f92d9a-2aee-489a-8f00-df90b93e67e0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - discoverdrupal_demo
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: discoverdrupal_demo_page_title
+theme: discoverdrupal_demo
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

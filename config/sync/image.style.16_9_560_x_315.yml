@@ -1,0 +1,15 @@
+uuid: ef4d88bc-47c9-45e3-9e8c-5efa8651994c
+langcode: en
+status: true
+dependencies: {  }
+name: 16_9_560_x_315
+label: '16:9 560 x 315'
+effects:
+  52ba4fbc-8ca3-4995-b1ed-f0e1510861b5:
+    uuid: 52ba4fbc-8ca3-4995-b1ed-f0e1510861b5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 560
+      height: 315
+      anchor: center-center

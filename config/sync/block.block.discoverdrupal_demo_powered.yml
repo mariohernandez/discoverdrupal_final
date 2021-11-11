@@ -1,0 +1,22 @@
+uuid: 7290bec2-4f7b-43c9-8333-4f58413e5ca8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - discoverdrupal_demo
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: discoverdrupal_demo_powered
+theme: discoverdrupal_demo
+region: footer
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

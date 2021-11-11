@@ -1,0 +1,22 @@
+uuid: 9d0260a1-ee08-4aec-8f4a-d7c48a694387
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - discoverdrupal
+_core:
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: discoverdrupal_messages
+theme: discoverdrupal
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

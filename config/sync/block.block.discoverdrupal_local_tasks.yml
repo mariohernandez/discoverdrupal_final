@@ -1,0 +1,22 @@
+uuid: 77c6b266-dc37-4987-852c-711ee3811fad
+langcode: en
+status: true
+dependencies:
+  theme:
+    - discoverdrupal
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: discoverdrupal_local_tasks
+theme: discoverdrupal
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

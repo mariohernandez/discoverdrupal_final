@@ -1,0 +1,18 @@
+uuid: 699007ad-67e9-4bd9-8fa8-bc27b4ef7b93
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Event
+type: event
+description: 'Content type to create different types of events on our website.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

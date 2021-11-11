@@ -1,0 +1,8 @@
+uuid: e1f3961d-28a4-4797-8a29-264cdd3c338e
+langcode: en
+status: true
+dependencies: {  }
+id: hero
+label: Hero
+revision: 0
+description: 'A custom block type for creating a hero component on pages.'

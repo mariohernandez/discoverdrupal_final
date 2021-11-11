@@ -1,0 +1,15 @@
+uuid: 5c37cd67-8d0d-4255-80a9-6cfe06d7e532
+langcode: en
+status: true
+dependencies: {  }
+name: 16_9_250_x_141_
+label: '16:9 (250 x 141)'
+effects:
+  3dc112a5-9b83-4970-a3a4-ac0ca5dbb1c0:
+    uuid: 3dc112a5-9b83-4970-a3a4-ac0ca5dbb1c0
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 250
+      height: 141
+      anchor: center-center

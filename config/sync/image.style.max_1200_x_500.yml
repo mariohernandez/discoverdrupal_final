@@ -1,0 +1,15 @@
+uuid: f2e63958-eaef-472e-9bbb-e241aee39a2c
+langcode: en
+status: true
+dependencies: {  }
+name: max_1200_x_500
+label: 'Max 1200 x 500'
+effects:
+  9f29f9c9-b6a9-45aa-a223-bf8fda03592f:
+    uuid: 9f29f9c9-b6a9-45aa-a223-bf8fda03592f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 500
+      anchor: center-center

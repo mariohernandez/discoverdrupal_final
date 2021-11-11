@@ -1,0 +1,30 @@
+uuid: 67004100-3375-4c43-8720-2cbad20f3f51
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:hero:0c30bfa9-979e-4757-8689-fbdf4c8a5711'
+  module:
+    - block_content
+    - system
+  theme:
+    - discoverdrupal
+id: hero
+theme: discoverdrupal
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:0c30bfa9-979e-4757-8689-fbdf4c8a5711'
+settings:
+  id: 'block_content:0c30bfa9-979e-4757-8689-fbdf4c8a5711'
+  label: Hero
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

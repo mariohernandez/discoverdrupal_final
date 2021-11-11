@@ -1,0 +1,23 @@
+uuid: 9361ad4e-f3a8-4c8f-814e-4310d17a5f87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_online_event_
+    - node.type.event
+id: node.event.field_online_event_
+field_name: field_online_event_
+entity_type: node
+bundle: event
+label: 'Online event?'
+description: 'Select whether this is an online event.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes, this is an online event'
+  off_label: 'No, this is an in person event'
+field_type: boolean

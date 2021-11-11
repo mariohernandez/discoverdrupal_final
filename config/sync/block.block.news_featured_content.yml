@@ -1,0 +1,29 @@
+uuid: 7dd9e108-8e12-4c0f-a73d-b006cc2fe368
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news
+  module:
+    - system
+    - views
+  theme:
+    - discoverdrupal
+id: news_featured_content
+theme: discoverdrupal
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:news-featured_content'
+settings:
+  id: 'views_block:news-featured_content'
+  label: 'Our Featured Content'
+  provider: views
+  label_display: visible
+  views_label: 'Our Featured Content'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

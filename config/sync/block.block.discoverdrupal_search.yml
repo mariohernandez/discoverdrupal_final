@@ -1,0 +1,23 @@
+uuid: 62c44434-f12f-4a14-88a7-182bc31e1443
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - discoverdrupal
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: discoverdrupal_search
+theme: discoverdrupal
+region: header
+weight: -9
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

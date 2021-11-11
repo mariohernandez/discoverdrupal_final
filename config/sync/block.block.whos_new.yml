@@ -1,0 +1,29 @@
+uuid: 8f4a1478-7608-484b-973f-5e4a30487d31
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.who_s_new
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap
+id: whos_new
+theme: bootstrap
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:who_s_new-block_1'
+settings:
+  id: 'views_block:who_s_new-block_1'
+  label: 'Who''s new on my site'
+  provider: views
+  label_display: visible
+  views_label: 'Who''s new on my site'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

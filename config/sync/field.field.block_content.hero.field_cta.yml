@@ -1,0 +1,23 @@
+uuid: 7a00d710-c927-49ac-b927-14ec25b4e012
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero
+    - field.storage.block_content.field_cta
+  module:
+    - link
+id: block_content.hero.field_cta
+field_name: field_cta
+entity_type: block_content
+bundle: hero
+label: CTA
+description: 'Type the text and URL for the link you would like to direct visitors to.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

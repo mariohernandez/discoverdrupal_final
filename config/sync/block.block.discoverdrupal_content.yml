@@ -1,0 +1,22 @@
+uuid: f6976b81-5b91-4880-8ca9-e066a67922bc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - discoverdrupal
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: discoverdrupal_content
+theme: discoverdrupal
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

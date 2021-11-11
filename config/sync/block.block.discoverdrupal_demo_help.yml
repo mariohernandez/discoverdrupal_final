@@ -1,0 +1,22 @@
+uuid: 3264a8a3-9cab-4fb2-b170-517f1d5fce4e
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - discoverdrupal_demo
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: discoverdrupal_demo_help
+theme: discoverdrupal_demo
+region: header
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
