@@ -1,0 +1,21 @@
+.discoverdrupal__navigation {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 20px;
+}
+
+.discoverdrupal__navigation--item {
+  margin: 0 20px;
+}
+
+.discoverdrupal__navigation--item a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.discoverdrupal__navigation--item a:hover {
+  text-decoration: underline;
+}

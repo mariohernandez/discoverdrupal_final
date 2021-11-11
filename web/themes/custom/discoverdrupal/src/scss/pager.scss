@@ -1,0 +1,49 @@
+@import '../scss/variables';
+
+.pager {
+  display: flex;
+  justify-content: center;
+}
+
+.pager__items {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pager__item {
+  margin: 0 0.5rem;
+
+  a {
+    background-color: $color-black;
+    border-radius: 50%;
+    color: $color-white;
+    display: block;
+    align-items: center;
+    display: flex;
+    font-size: 1.8rem;
+    height: 34px;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    width: 34px;
+  }
+
+  &.pager__item--first,
+  &.pager__item--last {
+
+    a {
+      border-radius: 4px;
+      width: unset;
+    }
+  }
+
+  &.is-active,
+  &:hover {
+
+    a {
+      background-color: $color-secondary;
+    }
+  }
+}

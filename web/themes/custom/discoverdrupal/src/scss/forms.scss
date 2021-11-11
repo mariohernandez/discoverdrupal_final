@@ -1,0 +1,36 @@
+.search-block-form {
+  max-width: 500px;
+  width: 100%;
+}
+
+.search-block-form form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-block-form .js-form-type-search {
+  width: 100%;
+}
+
+input[type='text'],
+input[type='search'],
+input[type='password'],
+input[type='email'],
+input[type='url'] {
+  border: 2px solid #ccc;
+  height: 50px;
+  padding: 10px;
+  width: 100%;
+}
+
+input[type='submit'],
+.button {
+  background-color: rebeccapurple;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}

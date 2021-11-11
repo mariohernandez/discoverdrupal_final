@@ -1,0 +1,30 @@
+@import '../scss/global.scss';
+
+.primary-tabs {
+  border-bottom: 1px solid $color-gray-medium;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 40px 20px 0;
+
+  li {
+    margin-left: -1px;
+    margin-bottom: -1px;
+  }
+
+  a {
+    background-color: $color-gray-lighter;
+    border: 1px solid $color-gray-medium;
+    display: block;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+
+    &.is-active,
+    &:hover,
+    &:focus {
+      background-color: $color-white;
+      border-bottom: 1px solid $color-white;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+@import '../scss/breakpoints';
+
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero__image {
+  position: relative;
+}
+
+.hero__image::after {
+  background-color: rgba(0,0,0, 0.5);
+  bottom: 0;
+  content: '';
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.hero__content {
+  color: white;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.hero__content--title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+
+  @include breakpoint($bp-sm) {
+    font-size: 5rem;
+  }
+
+  @include breakpoint($bp-lg) {
+    font-size: 8rem;
+  }
+
+  @include breakpoint($bp-xl) {
+    font-size: 10rem;
+  }
+}
+
+.hero__content--cta a {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  display: inline-block;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  @include breakpoint($bp-md) {
+    padding: 20px 40px;
+  }
+}

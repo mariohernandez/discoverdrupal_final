@@ -1,0 +1,30 @@
+@import '../scss/breakpoints';
+
+header[role='banner'] {
+  position: relative;
+}
+
+.header--inner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 20px 0;
+
+  .search-block-form {
+    margin-top: 4rem;
+  }
+
+  @include breakpoint($bp-sm) {
+    flex-direction: row;
+    justify-content: space-between;
+
+    .search-block-form {
+      margin: 0;
+    }
+  }
+}
+
+.header--inner img {
+  width: 120px;
+  height: auto;
+}

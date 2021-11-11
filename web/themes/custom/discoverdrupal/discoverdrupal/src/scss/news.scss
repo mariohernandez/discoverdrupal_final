@@ -1,0 +1,22 @@
+@import './breakpoints';
+
+.news__items {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  @include breakpoint($bp-md) {
+    align-items: unset;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+#block-news-featured-content > h2 {
+  color: #999;
+  font-size: 4rem;
+  margin: 8rem 0 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}

@@ -1,0 +1,81 @@
+@import './breakpoints';
+@import './variables';
+
+.news__items {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  @include breakpoint($bp-md) {
+    align-items: unset;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+#block-news-featured-content > h2 {
+  color: #999;
+  font-size: 4rem;
+  margin: 8rem 0 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.full-article--date {
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+// News landing page.
+.latest-news {
+  margin: 0 20px;
+  max-width: 800px;
+
+  @include breakpoint($bp-md) {
+    margin: 0 auto;
+  }
+
+  .node__title {
+    font-size: 1.8rem;
+    margin: 0 0 5px;
+
+    a {
+      color: $color-black;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .news__item:not(:last-child) {
+    border-bottom: 1px solid $color-gray-medium;
+    margin-bottom: 2rem;
+    padding-bottom: 10px;
+  }
+}
+
+.news__content {
+  align-items: center;
+  display: flex;
+  flex-grow: 0;
+}
+
+.news__item--image {
+  margin-right: 30px;
+  flex: 0 0 170px;
+
+  @include breakpoint($bp-sm) {
+    flex: 0 0 250px;
+  }
+}
+
+.news__item--body {
+
+  p {
+    margin-top: 0;
+  }
+}

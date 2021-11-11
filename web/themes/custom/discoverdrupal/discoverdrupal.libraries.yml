@@ -1,0 +1,53 @@
+global:
+  css:
+    base:
+      dist/css/global.css: {}
+      dist/css/header.css: {}
+      dist/css/layout.css: {}
+      dist/css/forms.css: {}
+
+card:
+  css:
+    component:
+      dist/css/card.css: {}
+
+events:
+  css:
+    component:
+      dist/css/events.css: {}
+
+hero:
+  css:
+    component:
+      dist/css/hero.css: {}
+
+navigation:
+  css:
+    component:
+      dist/css/navigation.css: {}
+  js:
+    src/js/navigation.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+
+news:
+  css:
+    component:
+      dist/css/news.css: {}
+
+pager:
+  css:
+    component:
+      dist/css/pager.css: {}
+
+primary-tabs:
+  css:
+    component:
+      dist/css/primary-tabs.css: {}
+
+webfonts:
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap': { type: external, minified: true }
